@@ -12,6 +12,7 @@ public class KMP {
         String str2 = "ababa";
         System.out.println(getIndexOf(str1, str2));
         System.out.println(getIndexOf(str1, str2));
+        System.out.println(getIndexOf(str1, str2));
     }
 
     private static int getIndexOf(String str1, String str2) {

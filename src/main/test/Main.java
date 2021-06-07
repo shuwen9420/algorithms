@@ -1,14 +1,17 @@
-import javafx.util.Pair;
+import junit.framework.TestCase;
+import org.junit.Test;
 
-public class Main {
+import java.util.Arrays;
 
-    public static void main(String[] args) {
+/**
+ * Created by nibnait on 2020-01-08
+ */
+public class Main extends TestCase {
 
-        System.out.println(test());
+    @Test
+    public void testCase() {
+
     }
 
-    private static Pair<String, Integer> test() {
-        return new Pair<>("0", 1);
-    }
 
 }

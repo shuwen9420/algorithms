@@ -23,8 +23,6 @@ public class KMP {
         int ps2 = 0;    //遍历str2用的指针
         //djfdjsgfjshgjshgjshj
         //well
-        //dfd
-        //hello
         int[] nextArr = getNextArray(s2);
         while (ps1 < s1.length && ps2 < s2.length) {
             if (s1[ps1] == s2[ps2]) {

@@ -63,7 +63,7 @@
     - 如果不相等，则比较str2[nextArr[cn]]与str2[i-1]，直到cn到达str2[0]的位置。如果还是不与str2[i-1]相等，则nextArr[i] = 0;
 
 代码：
-
+//private
 ```
     private static int[] getNextArray(char[] s2) {
         if (s2.length == 1){
